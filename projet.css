@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    margin-top:70px;
+    margin-left:2.5%;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    margin-top:70px;
+    margin-left:2.5%;
+}
+.z{
+    background-color: white;
+    width: 210px;
+}
+.btn1{
+    margin-top: 50px;
+    margin-left: 50%;
+}
+.contenta{
+    display: flex;
+    margin-top:70px;
+    margin-left:  30%;
+    padding: 50px;
+    justify-content:space-around;
+
+}
+
+/* Réinitialiser les marges et les paddings par défaut */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styliser la barre de navigation */
+.nav {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+}
+
+.nav ul {
+    display: flex; /* Utiliser flexbox pour aligner les éléments horizontalement */
+    justify-content: space-around; /* Espacement égal entre les éléments */
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 14px 20px; /* Espacement interne des éléments */
+}
+
+/* Styliser les éléments de la liste */
+.nav li {
+    color: white; /* Couleur du texte */
+    text-align: center;
+    text-decoration: none; /* Supprimer la décoration des liens */
+}
+
+.nav li:hover {
+    background-color: #575757; /* Couleur de fond au survol */
+}
+
+
+/* Base styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: #575757;
+}
+
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .d1, .d2, .d3, .d6, .container, .d7 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d1 img, .d2 img, .d3 img, .d6 img, .container img, .d7 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .t1, .t2, .t3, .t6, .t7 {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav ul {
+        padding: 0;
+    }
+
+    .nav li {
+        padding: 8px 0;
+    }
+
+    .d1, .d2, .d3, .d6, .container, .d7 {
+        margin: 10px 0;
+    }
+
+    .t1, .t2, .t3, .t6, .t7 {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
